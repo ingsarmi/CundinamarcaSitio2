@@ -228,52 +228,59 @@ img {
 
 /* Estilo para la seccion 3 */
 
+/* Estilo para la seccion */
 .separador {
     display: flex;
-    align-items: center;
+    flex-direction: column; /* Cambia la dirección de los elementos a vertical */
+    align-items: center; /* Centra los elementos horizontalmente */
     background: #4D4D4D; /* Fondo del separador */
     width: 100%;
-    height: 151.281px;
+    padding: 20px; /* Añade espacio interior */
+    box-sizing: border-box;
 }
 
+/* Estilo para la imagen */
 .separador img {
-    width: 45.076px;
-    margin-left: 50px;
-    margin-right: 10px;
+    width: 82.965px; /* Nuevo tamaño para dispositivos móviles */
+    margin: 0; /* Elimina los márgenes para ajustar mejor en dispositivos móviles */
 }
 
+/* Estilo para el rectángulo */
 .separador .rectangulo {
     width: 5px;
     height: 62.777px;
     background-color: #FBE122;
+    margin: 10px 0; /* Espacio superior e inferior */
 }
 
+/* Estilo para el texto */
 .separador .texto {
-    text-align: left;
-    margin-left: 10px; /* Espacio entre la imagen y el texto */
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin: 10px 0; /* Espacio superior e inferior */
 }
 
+/* Estilo para el título h3 */
 .separador h3 {
     color: #00A99D;
     font-family: 'Lato', sans-serif;
-    font-size: 39.282px;
+    font-size: 28.816px; /* Nuevo tamaño para dispositivos móviles */
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 0px; /* Ajusta el margen inferior según tus preferencias */
-    margin-top: 0px; /* Ajusta el margen inferior según tus preferencias */
+    margin: 0; /* Elimina el margen superior e inferior */
 }
 
+/* Estilo para el párrafo p */
 .separador p {
-    color: #FFF;
-    font-family: 'Lato', sans-serif;
-    font-size: 25.728px;
+    color: #4D4D4D;
+    font-family: 'Inter', sans-serif;
+    font-size: 14.408px; /* Nuevo tamaño para dispositivos móviles */
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
-    margin-top: 0; /* Elimina el margen superior */
-    margin-bottom: 0; /* Elimina el margen inferior */
+    margin: 0; /* Elimina el margen superior e inferior */
 }
+
 
 
 /* Estilo para la seccion 4 */
